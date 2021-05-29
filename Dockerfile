@@ -9,4 +9,4 @@ RUN yum install -y tar gzip \
  && chmod +x /usr/local/bin/kubectl \
  && curl -L https://get.helm.sh/helm-${HELM_VERSION}-linux-amd64.tar.gz | tar xz && mv linux-amd64/helm /bin/helm && rm -rf linux-amd64
  
-ENTRYPOINT [ "helm" ]
+ENTRYPOINT [ "" ]
